@@ -1,5 +1,15 @@
-*/
- #box {
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  max-width: 980px;
+  margin: 0;
+  padding: 0;
+  background: #222;
+}
+
+#box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,12 +35,3 @@ path {
   stroke-linejoin: round;
 }
 
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-  background: #222;
-}
