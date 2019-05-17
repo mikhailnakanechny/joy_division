@@ -22,17 +22,17 @@ tl.staggerTo(
 
 //AUDIO
 
-var song = $("audio");
+// var song = $("audio");
 
-song.prop("volume", 0.5);
-song.prop("muted", true);
-$("#mute").click(function() {
-  if (song.prop("muted") == true) {
-    song.prop("muted", false);
-  } else {
-    song.prop("muted", true);
-  }
-});
+// song.prop("volume", 0.5);
+// song.prop("muted", true);
+// $("#mute").click(function() {
+//   if (song.prop("muted") == true) {
+//     song.prop("muted", false);
+//   } else {
+//     song.prop("muted", true);
+//   }
+// });
 
 //Joy Division - Unknown Pleasures 1979
 //Peter Saville - Album Artwork
